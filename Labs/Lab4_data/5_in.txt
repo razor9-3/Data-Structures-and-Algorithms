@@ -1,0 +1,13 @@
+m = int(input ('m = '))
+n = int(input('n = '))
+min_lim = int(input('min_lim = '))
+max_lim = int(input('max_lim = '))
+
+arr = []
+for i in range(m):
+    row = []
+    for j in range(n):
+        row.append(random.randrange(min_lim, max_lim + 1))
+    arr.append(row)
+
+print (arr)
